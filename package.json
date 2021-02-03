@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UltimateSoftware/nightwatch-testrail.git"
+    "url": "git+https://github.com/UltimateSoftware/nightwatch-testrail-updater.git"
   },
   "keywords": [
     "NightwatchJS",
@@ -21,7 +21,7 @@
   "author": "David Mello (david.mello@ukg.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/UltimateSoftware/nightwatch-testrail/issues"
+    "url": "https://github.com/UltimateSoftware/nightwatch-testrail-updater/issues"
   },
-  "homepage": "https://github.com/UltimateSoftware/nightwatch-testrail#readme"
+  "homepage": "https://github.com/UltimateSoftware/nightwatch-testrail-updater#readme"
 }
