@@ -1,4 +1,4 @@
-# nightwatch-testrail
+# nightwatch-testrail-updater
 NightwatchJS custom command to update your TestRail test run with the results of your automated tests using the TestRail API.
 
 ## Automatically updating your TestRail run with the results of your Nightwatch test automation
@@ -13,7 +13,7 @@ In your Nightwatch test project
 
 In your NightwatchJS `nightwatch.json` configuration file add or append this entry
 
-> "custom_commands_path": ["./node_modules/nightwatch-testrail/commands"]
+> "custom_commands_path": ["./node_modules/nightwatch-testrail-updater/commands"]
 
 The nightwatch-testrail package looks in the nightwatch.json file for the values it needs to connect to the TestRail API such as the host and run id. Below is an excerpt of the important parts.
 
