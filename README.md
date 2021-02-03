@@ -9,7 +9,7 @@ This package is meant to simplify updating the results of test runs inside Guroc
 
 In your Nightwatch test project 
 
-> npm install nightwatch-testrail --save
+> npm install nightwatch-testrail-updater --save
 
 In your NightwatchJS `nightwatch.json` configuration file add or append this entry
 
