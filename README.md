@@ -15,7 +15,7 @@ In your NightwatchJS `nightwatch.json` configuration file add or append this ent
 
 > "custom_commands_path": ["./node_modules/nightwatch-testrail-updater/commands"]
 
-The nightwatch-testrail package looks in the nightwatch.json file for the values it needs to connect to the TestRail API such as the host and run id. Below is an excerpt of the important parts.
+The nightwatch-testrail-updater package looks in the nightwatch.json file for the values it needs to connect to the TestRail API such as the host and run id. Below is an excerpt of the important parts.
 
 The host would be the host of where you have your TestRail instance deployed to and the run id is the "R" number shown in the upper left of the test run in TestRail when you are viewing the test run details.
 

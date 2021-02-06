@@ -1,6 +1,6 @@
 {
   "name": "nightwatch-testrail-updater",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NightwatchJS custom command to update your TestRail test run with the results of your automated tests using the TestRail API.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/UltimateSoftware/nightwatch-testrail-updater/issues"
   },
-  "homepage": "https://github.com/UltimateSoftware/nightwatch-testrail-updater#readme"
+  "homepage": "https://github.com/UltimateSoftware/nightwatch-testrail-updater#readme",
+  "dependencies": {
+    "supertest": "^6.1.3"
+  }
 }
