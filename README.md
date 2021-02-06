@@ -22,10 +22,12 @@ The host would be the host of where you have your TestRail instance deployed to 
 ```json
 "test_settings": {
     "default": {
-      "testRail": {
-          "host": "testrail.mycorp.com",
-          "runId": "12345"
-        },
+        "globals": {
+            "testRail": {
+                "host": "testrail.mycorp.com",
+                "runId": "12345"
+            }
+        }
     }
   }
 ```
